@@ -1,0 +1,12 @@
+#6a
+a=6
+print(a==6)
+#6b
+print(10/3)
+print(10%3)
+#6c
+print(10/3)
+print(10//3)
+#6d
+print(10*3)
+print(10**3)

@@ -1,0 +1,10 @@
+#15
+a = int(input("Enter the 1st number: "))
+b = int(input("Enter the 2nd number: "))
+c = int(input("Enter the 3rd number: "))
+maxNo = max(a,b)
+maxNo = max(maxNo,c)
+minNo = min(a,b)
+minNo = min(minNo,c)
+middle = (a+b+c)-(maxNo+minNo)
+print(f'The minimun number {minNo} , middle number {middle}, and Maximun Number {maxNo}.')
